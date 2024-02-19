@@ -58,10 +58,6 @@ function App() {
           <Route path='crear' element={<Crear/>}/>
           <Route path='actualizar/:id' element={<Actualizar/>}/>
         </Route>
-
-
-
-
       </Routes>
       </AuthProvider>
     </BrowserRouter>

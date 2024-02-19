@@ -10,6 +10,6 @@ connection()
 
 
 app.listen(app.get('port'),()=>{
-    console.log(`Server ok on http://172.31.115.155:${app.get('port')}`);
+    console.log(`Server ok on http://localhost:${app.get('port')}`);
 })
 
